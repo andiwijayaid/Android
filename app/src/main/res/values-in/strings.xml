@@ -137,9 +137,7 @@
     <string name="practicesUnknown">Praktik Privasi yang Tidak Diketahui</string>
     <string name="practicesOverview">Praktik privasi mengindikasikan seberapa besar informasi pribadi yang Anda bagikan dengan sebuah halam web dilindungi.</string>
     <!--    TODO Unknown S;DR -->
-    <string name="practicesTosdrLink">
-        Hasil Praktik Privasi dari&#160;<b><u>KeS;DR</u></b>
-        Privacy Practices results from&#160;<b><u>ToS;DR</u></b></string>
+    <string name="practicesTosdrLink">Hasil Praktik Privasi dari&#160;<b><u>ToS;DR</u></b></string>
     <string name="practicesIconContentGood">Ikon Praktik yang Baik</string>
     <string name="practicesIconContentBad">Ikon Praktik yang Buruk</string>
     <string name="privacyProtectionToggle">Proteksi Privasi</string>
