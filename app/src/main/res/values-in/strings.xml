@@ -1,0 +1,374 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="appName" translatable="false">DuckDuckGo</string>
+    <string name="duckDuckGoLogoDescription">Logo DuckDuckGo</string>
+    <string name="appDescription" translatable="false">DuckDuckGo&#160;</string>
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+
+    <!-- Onboarding Activity -->
+    <string name="onboardingDefaultBrowserDescription">Kunjungi pengaturan untuk penelusuran dan penjelajahan dengan DuckDuckGo setiap saat.</string>
+    <string name="onboardingContinue">Lanjut</string>
+    <string name="onboardingContinueFinalPage">Mulai Menjelajah</string>
+    <string name="onboardingDefaultBrowserTitle">Jadikan DuckDuckGo Browser Utama Anda</string>
+    <string name="onboardingDefaultBrowserTitleDefaultSet">Katan Halo pada Kedamaian Hati</string>
+
+    <!-- Unified Welcome Page -->
+    <string name="unifiedOnboardingTitleFirstVisit">Selamat datang di\nDuckDuckGo!</string>
+    <string name="unifiedOnboardingSubtitleTrackerBlockingEnabled">Tetap menjaga privasi selama penelusuran dan penjelajahan di web.</string>
+    <string name="unifiedOnboardingPrivateSearchTitle">Penelusuran Rahasia</string>
+    <string name="unifiedOnboardingPrivateSearchSubtitle">Dengan DuckDuckGo, penelusuran Anda selalu rahasia.</string>
+    <string name="unifiedOnboardingBrowsingProtectionTitle">Proteksi Penjelajahan</string>
+    <string name="unifiedOnboardingBrowsingProtectionSubtitleTrackerBlockingEnabled">Selalu memblokir pelacak dan menjelajah dengan aman.</string>
+    <string name="unifiedOnboardingDataClearingTitle">Penghapusan Data</string>
+    <string name="unifiedOnboardingDataClearingSubtitle">Hapus data penjelajahan Anda dengan menekan sebuah tombol.</string>
+    <string name="unifiedOnboardingCustomizationTitle">Kostumisasi</string>
+    <string name="unifiedOnboardingCustomizationSubtitle">Pilih sebuah tema dan kostumisasi fitur privasi.</string>
+
+    <!-- Default Browser -->
+    <string name="cannotLaunchDefaultAppSettings">Tidak dapat menjalankan layar pengaturan aplikasi default</string>
+    <string name="settingsDefaultBrowserEnabled">Atur sebagai browser utama</string>
+    <string name="defaultBrowserMaybeLater">Mungkin nanti</string>
+    <string name="defaultBrowserLetsDoIt">Ayo lakukan!</string>
+    <string name="defaultBrowserDescriptionNoDefault">Buka tautan dengan aman, setiap waktu.</string>
+    <string name="defaultBrowserDescriptionDefaultSet">Dengan DuckDuckGo, data online Anda selalu lebih aman, kemanapun Internet membawa Anda.</string>
+    <string name="defaultBrowserInstructions">Pilih DuckDuckGo dan ketuk <font color='#678fff'>selalu</font>.</string>
+
+    <!-- Browser Activity -->
+    <string name="browserPopupMenu">Menu browser</string>
+    <string name="refresh">Muat ulang</string>
+    <string name="back">Mundur</string>
+    <string name="forward">Maju</string>
+
+    <string name="omnibarInputHint">Telusuri atau ketik URL</string>
+    <string name="clearButtonContentDescription">Bersihkan input pencarian</string>
+    <string name="no_compatible_third_party_app_installed">Tidak ada aplikasi yang kompatibel terpasang</string>
+    <string name="addBookmarkMenuTitle">Jadikan Bookmark</string>
+    <string name="requestDesktopSiteMenuTitle">Tampilan Desktop</string>
+
+    <!-- Downloading files -->
+    <string name="downloadImage">Unduh Gambar</string>
+    <string name="permissionRequiredToDownload">Pengunduhan membutuhkan izin penyimpanan</string>
+    <string name="downloadComplete">Unduh selesai.</string>
+    <string name="downloadFailed">Gagal mengunduh</string>
+    <string name="downloadInProgress">Mengunduh</string>
+
+    <!-- Sharing options -->
+    <string name="options">Opsi</string>
+    <string name="shareLink">Membagikan Tautan</string>
+    <string name="shareMenuTitle">Bagikan…</string>
+    <string name="copyUrl">Salin alamat tautan</string>
+
+    <!-- Find in page -->
+    <string name="findInPageMenuTitle">Temukan</string>
+    <string name="nextSearchTermDescription">Berikutnya</string>
+    <string name="previousSearchTermDescription">Sebelumnya</string>
+    <string name="closeFindInPageButtonDescription">Tutup bilah cari</string>
+    <string name="findInPageHint">Temukan</string>
+    <string name="findInPageMatches" translatable="false">%d/%d</string>
+
+    <!-- AutoComplete Suggestions -->
+    <string name="editQueryBeforeSubmitting">Sunting kueri sebelum mencari</string>
+    <string name="settingsAutocompleteEnabled">Saran Pelengkapan Otomatis</string>
+
+    <!-- Opening external apps -->
+    <string name="openExternalApp">Membuka Aplikasi Eksternal</string>
+    <string name="launchingExternalApp">Buka di aplikasi yang lain</string>
+    <string name="confirmOpenExternalApp">Apakah kamu ingin meninggalkan DuckDuckGo untuk melihat konten ini?</string>
+    <string name="unableToOpenLink">Tidak dapat membukan jenis tautan ini</string>
+
+    <!-- Tabs -->
+    <string name="homeTab" translatable="false">DuckDuckGo</string>
+    <string name="tabActivityTitle">Tab</string>
+    <string name="tabsMenuItem">Tab</string>
+    <string name="newTabMenuItem">Tab Baru</string>
+    <string name="openInNewTab">Buka di Tab Baru</string>
+    <string name="openInNewBackgroundTab">Buka di Tab Latar Belakang</string>
+    <string name="openImageInNewTab">Buka Gambar di Tab Latar Belakang</string>
+    <string name="faviconContentDescription">Favicon</string>
+    <string name="closeContentDescription">Tutup</string>
+    <string name="closeAllTabsMenuItem">Tutup Semua Tab</string>
+    <string name="closeTab">Tutup tab</string>
+
+    <!-- Privacy Dashboard Activities -->
+    <string name="privacyDashboardActivityTitle">Dasbor Privasi</string>
+    <string name="privacyProtectionEnabled">PERLINDUNGAN PRIVASI DIAKTIFKAN</string>
+    <string name="privacyProtectionDisabled">PERLINDUNGAN PRIVASI DINONAKTIFKAN</string>
+    <string name="privacyProtectionUpgraded" tools:ignore="TypographyQuotes">DITINGKATKAN DARI &lt;img src="%d" /> KE &lt;img src="%d" /></string>
+    <string name="privacyGradeContentDescription">Nilai Privasi</string>
+
+    <string name="httpsGood">Konteksi Terenkripsi</string>
+    <string name="httpsMixed">Koneksi Enkripsi Campuran</string>
+    <string name="httpsBad">Koneksi Tidak Terenkripsi</string>
+
+    <string name="networksActivityTitle">Jaringan Pelacak</string>
+    <string name="networksContentDescription">Jaringan Pelacak</string>
+    <string name="networksOverview">Jaringan pelacak mengumpulkan riwayat web Anda menjadi data profil milik Anda. Jaringan pelacak utama lebih berbahaya karena mereka dapat melacak dan menjadikan Anda target di internet.</string>
+
+    <plurals name="trackersFound" tools:ignore="UnusedQuantity">
+        <item quantity="one">%s Pelacak Ditemukan</item>
+        <item quantity="other">%s Pelacak Ditemukan</item>
+    </plurals>
+
+    <plurals name="trackerBlocked" tools:ignore="UnusedQuantity">
+        <item quantity="one">%s Pelacak Diblokir</item>
+        <item quantity="other">%s Pelacak Diblokir</item>
+    </plurals>
+
+    <plurals name="majorNetworksFound" tools:ignore="UnusedQuantity">
+        <item quantity="one">%s Jaringan Pelacak Utama Ditemukan</item>
+        <item quantity="other">%s Jaringan Pelacak Utama Ditemukan</item>
+    </plurals>
+
+    <plurals name="majorNetworksBlocked" tools:ignore="UnusedQuantity">
+        <item quantity="one">%s Jaringan Pelacak Utama Diblokir</item>
+        <item quantity="other">%s Jaringan Pelacak Utama Diblokir</item>
+    </plurals>
+
+    <string name="scorecardActivityTitle">Nilai Privasi</string>
+    <string name="scorecardSiteIsMemberOfMajorNetwork">Situs adalah Jaringan Pelacak Utama</string>
+    <string name="scorecardPrivacyGrade">Nilai Privasi</string>
+    <string name="scorecardEnhancedGrade">Tingkatkan Nilai</string>
+
+    <string name="privacyTermsActivityTitle">Praktik Privasi</string>
+    <string name="practicesGood">Praktik Privasi yang Baik</string>
+    <string name="practicesMixed">Praktik Privasi Campuran"</string>
+    <string name="practicesBad">"Praktik Privasi yang Burul"</string>
+    <string name="practicesUnknown">Praktik Privasi yang Tidak Diketahui</string>
+    <string name="practicesOverview">Praktik privasi mengindikasikan seberapa besar informasi pribadi yang Anda bagikan dengan sebuah halam web dilindungi.</string>
+    <!--    TODO Unknown S;DR -->
+    <string name="practicesTosdrLink">
+        Hasil Praktik Privasi dari&#160;<b><u>KeS;DR</u></b>
+        Privacy Practices results from&#160;<b><u>ToS;DR</u></b></string>
+    <string name="practicesIconContentGood">Ikon Praktik yang Baik</string>
+    <string name="practicesIconContentBad">Ikon Praktik yang Buruk</string>
+    <string name="privacyProtectionToggle">Proteksi Privasi</string>
+
+    <string name="networkTrackerSummaryHeader">
+        PELACAK JARINGAN TERBAIK
+        TRACKER NETWORK TOP OFFENDERS</string>
+    <string name="networkTrackerSummaryNotReady">Kami masih sedang mengumpulkan data untuk menunjukkan jumlah pelacak yang sudah kami blokir.</string>
+
+    <!-- Fire -->
+    <string name="fireMenu">Hapus Data</string>
+    <string name="fireClearAll">Hapus Semua Tab dan Data</string>
+    <string name="fireCancel">Batalkan</string>
+    <string name="fireDataCleared">Data dihapus</string>
+    <string name="fireProcessName" translatable="false">:fire</string>
+
+    <!-- Settings Activity -->
+    <string name="settingsActivityTitle">Pengaturan</string>
+    <string name="settingsMenuItemTitle">Pengaturan</string>
+    <string name="settingsHeadingGeneral">Umum</string>
+    <string name="settingsHeadingOther">Lainnya</string>
+    <string name="settingsHeadingPrivacy">Privasi</string>
+    <string name="settingsLightTheme">Tema Terang</string>
+    <string name="settingsAboutDuckduckgo">Tentang DuckDuckGo</string>
+    <string name="settingsVersion">Versi</string>
+    <string name="leaveFeedback">Tinggalkan Tanggapan</string>
+
+    <!-- Settings - Automatically clearing data -->
+    <string name="settingsAutomaticallyClearingDialogSave">Simpan</string>
+
+    <string name="settingsAutomaticallyClearWhat">Hapus Otomatis…</string>
+    <string name="settingsAutomaticallyClearWhatOptionNone">Tidak satupun</string>
+    <string name="settingsAutomaticallyClearWhatOptionTabs">Tab</string>
+    <string name="settingsAutomaticallyClearWhatOptionTabsAndData">Tab dan data</string>
+
+    <string name="settingsAutomaticallyClearWhen">Hapus pada…</string>
+    <string name="settingsAutomaticallyClearWhenAppExitOnly">Hanya ketika keluar aplikasi</string>
+    <string name="settingsAutomaticallyClearWhenAppExit5Seconds">Keluar aplikasi, Tidak aktif untuk 5 detik</string>
+    <string name="settingsAutomaticallyClearWhenAppExit5Minutes">Keluar aplikasi, Tidak aktif untuk 5 menit</string>
+    <string name="settingsAutomaticallyClearWhenAppExit15Minutes">Keluar aplikasi, Tidak aktif untuk 15 menit</string>
+    <string name="settingsAutomaticallyClearWhenAppExit30Minutes">Keluar aplikasi, Tidak aktif untuk 30 menit</string>
+    <string name="settingsAutomaticallyClearWhenAppExit60Minutes">Keluar aplikasi, Tidak aktif untuk 60 menit</string>
+
+    <!-- About Activity -->
+    <string name="aboutActivityTitle">Tentang kami</string>
+    <string name="aboutHeading">Privasi, disederhanakan.</string>
+    <string name="aboutDescription">
+        Di DuckDuckGo, kami mengatur standar baru untuk kepercayaan pada online..\n\
+        Privasi Browser DuckDuckGo menyediakan semua hal privasi yang penting yang Anda butuhkan untuk menjaga diri Anda selama menelusuri dan menjelajahi web, termasuk pemblokiran pelacak, dan pencarian rahasia DuckDuckGo.\n\
+        Bagaimanapun, internet seharusnya tidak terasa begitu mengerikan, dan mendapatkan privasi yang layak harusnya sesederhana menutup tirai.</string>
+    <string name="aboutMoreLink">Lebih banyak di duckduckgo.com/about</string>
+    <string name="no_suggestions">Tidak ada saran</string>
+
+    <!-- Broken Site Activity -->
+    <string name="brokenSiteReportBrokenSiteMenuItem">Laporkan Situs yang Rusak</string>
+    <string name="brokenSiteHeading">Laporkan sebuah Situs yang Rusak</string>
+    <string name="brokenSiteModalDescription">Laporan situs rusak sepenuhnya anonim dan membantu kami meningkatkan aplikasi ini!</string>
+    <string name="brokenSiteUrlHint">Masukkan URL</string>
+    <string name="brokenSiteDomainLabel">Domain situs yang rusak:</string>
+    <string name="brokenSiteMessageHint">Konten atau fungsi mana yang rusak?</string>
+    <string name="brokenSiteSubmitButton">Kirimkan Tanggapan</string>
+    <string name="brokenSiteSubmitted">Terima kasih! Tanggapan anda telah terkirim</string>
+
+    <!-- Bookmarks Activity -->
+    <string name="bookmarksMenuTitle">Bookmark</string>
+    <string name="bookmarksActivityTitle">Bookmark</string>
+    <string name="bookmarkDeleteConfirmMessage">Apakah Anda yakin ingin menghapus bookmark &lt;b>%s&lt;/b>?</string>
+    <string name="bookmarkDeleteConfirmTitle">Konfirmasi</string>
+    <string name="bookmarkAddedFeedback">Bookmark telah ditambahkan</string>
+    <string name="bookmarkTitleHint">Nama</string>
+    <string name="bookmarkUrlHint">URL</string>
+    <string name="bookmarkSave">Simpan</string>
+    <string name="bookmarkTitleEdit">Sunting Bookmark</string>
+    <string name="noBookmarks">Belum ada bookmark</string>
+    <string name="bookmarkOverflowContentDescription">Opsi lainnya dari bookmark %s</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Sunting</string>
+    <string name="bookmarkEdited">Bookmark ditambahkan</string>
+
+    <!-- Widget -->
+    <string name="searchWidgetTextHint">Penelusuran DuckDuckGo</string>
+
+    <!-- Home Screen Shortcuts -->
+    <string name="addToHome">Tambahkan ke Beranda</string>
+
+    <!-- User Survey -->
+    <string name="surveyCtaTitle">Bantu kami meningkatkan kualitas aplikasi!</string>
+    <string name="surveyCtaDescription">Ikuti survei singkat dan anonim, serta bagikan tanggapan Anda.</string>
+    <string name="surveyCtaLaunchButton">Isi survei</string>
+    <string name="surveyCtaDismissButton">Tidak, terima kasih</string>
+    <string name="surveyActivityTitle">Survei Pengguna</string>
+    <string name="surveyTitle">SURVEI DUCKDUCKGO</string>
+    <string name="surveyDismissContentDescription">Abaikan survei</string>
+    <string name="surveyLoadingErrorTitle">Oh tidak!</string>
+    <string name="surveyLoadingErrorText">Survei kami saat ini tidak dimuat. Silakan coba beberapa saat lagi.</string>
+
+    <!-- Add widget -->
+    <string name="addWidgetCtaTitle">Coba Widget Pencarian Kami!</string>
+    <string name="addWidgetCtaDescription">Tambahkan widget pencarian kami ke tampilan utama Anda untuk akses cepat dan mudah.</string>
+    <string name="addWidgetCtaAutoLaunchButton">Tambahkan Widget</string>
+    <string name="addWidgetCtaInstructionsLaunchButton">Tunjukkan kepadaku</string>
+    <string name="addWidgetCtaDismissButton">Abaikan</string>
+    <string name="addWidgetInstructionsActivityTitle">Tambahkan widget</string>
+    <string name="addWidgetInstruction1Label">1</string>
+    <string name="addWidgetInstruction1">Tekan lama tampilan utama Anda, lalu buka menu widget</string>
+    <string name="addWidgetInstruction2Label">2</string>
+    <string name="addWidgetInstruction2">Temukan widget DuckDuckGo</string>
+    <string name="addWidgetInstruction3Label">3</string>
+    <string name="addWidgetInstruction3">Tarik widget ke layar utama Anda</string>
+    <string name="addWidgetInstructionsButtonGoHome">Buka Layar Utama</string>
+    <string name="addWidgetInstructionsButtonClose">Tutup</string>
+
+    <!-- App Enjoyment / Rating / Feedback -->
+    <string name="appEnjoymentDialogTitle">Enjoying DuckDuckGo?</string>
+    <string name="appEnjoymentDialogMessage">Kami senang menerima pendapat Anda</string>
+    <string name="appEnjoymentDialogPositiveButton">Saya suka</string>
+    <string name="appEnjoymentDialogNegativeButton">Perlu perbaikan</string>
+
+    <string name="rateAppDialogTitle">Beri penilaian untuk aplikasi</string>
+    <string name="rateAppDialogMessage">Tanggapan Anda penting. Ungkapkan rasa suka Anda dengan sebuah ulasan.</string>
+    <string name="rateAppDialogPositiveButton">Beri penilaian</string>
+    <string name="rateAppDialogNegativeButton" translatable="false">@string/noThanks</string>
+
+    <string name="giveFeedbackDialogTitle">Kami minta maaf untuk hal tersebut</string>
+    <string name="giveFeedbackDialogMessage">Beritahu bagaimana cara agar kami dapat meningkatkan kualitas aplikasi untuk Anda</string>
+    <string name="giveFeedbackDialogPositiveButton">Beri umpan balik</string>
+    <string name="giveFeedbackDialogNegativeButton" translatable="false">@string/noThanks</string>
+
+    <string name="noThanks">Tidak Terima Kasih</string>
+
+    <!-- Notification Channel Names -->
+    <string name="notificationChannelFileDownloading">Sedang mengundung berkas</string>
+    <string name="notificationChannelFileDownloaded">Berkas telah diunduh</string>
+    <string name="notificationChannelTutorials">Tutorial</string>
+
+    <!-- Clear Notification -->
+    <string name="clearNotificationTitle">Atur penghapusan data ke manual</string>
+    <string name="clearNotificationDescription">Atur DuckDuckGo untuk menghapus data penjelajahan setelah setiap sesi.</string>
+
+    <!-- Privacy Protection Notification -->
+    <string name="privacyProtectionNotificationDefaultTitle">Kami melindungi privasi Anda</string>
+    <string name="privacyProtectionNotificationReportTitle">Laporan Privasi Anda</string>
+    <string name="privacyProtectionNotificationDefaultDescription">Gunakan aplikasi DuckDuckGo untuk melindungi data Anda dengan memblokir pelacak dan mengengkripsi koneksi.</string>
+    <string name="privacyProtectionNotificationUpgadeDescription">Anda memproteksi data Anda dengan mengamankan %d koneksi yang tidak terenkripsi selama menggunakan DuckDuckGo.</string>
+    <string name="privacyProtectionNotificationTrackerDescription">Anda memproteksi data Anda dengan memblokir %d pelacak selama menggunakan DuckDuckGo.</string>
+    <string name="privacyProtectionNotificationBothDescription">Anda memproteksi data Anda dengan memblokir %d pelacak dan mengamankan %d koneksi yang tidak terenkripsi selama menggunakan DuckDuckGo.</string>
+    <string name="privacyProtectionNotificationLaunchButton">Lanjutkan Penjelajahan</string>
+
+    <!-- Authentication -->
+    <string name="authenticationDialogTitle">Masuk</string>
+    <string name="authenticationDialogMessage">%s membutuhkan nama pengguna dan kata sandi.</string>
+    <string name="authenticationDialogPositiveButton">Masuk</string>
+    <string name="authenticationDialogNegativeButton">Batalkan</string>
+    <string name="authenticationDialogUsernameHint">Nama Pengguna</string>
+    <string name="authenticationDialogPasswordHint">Kata Sandi</string>
+
+    <!-- User-facing label for when a user selects text and might want to search for that text -->
+    <string name="systemTextSearchMessage">Search DuckDuckGo</string>
+
+    <!-- App feedback disambiguation -->
+    <string name="feedbackActivityTitle">Bagikan Tanggapan Anda</string>
+    <string name="missingBrowserFeaturesTitleLong">Fitur browser hilang atau membuat frustasi</string>
+    <string name="missingBrowserFeaturesTitleShort">Masalah pada Fitur Browser</string>
+    <string name="missingBrowserFeaturesSubtitle">Fitur penjelajahan apa yang dapat kami tambah atau tingkatkan?</string>
+    <string name="missingBrowserFeatureSubReasonNavigation">Menavigasi maju, mundur, memuat ulang</string>
+    <string name="missingBrowserFeatureSubReasonTabManagement">Membuat dan mengelola tab</string>
+    <string name="missingBrowserFeatureSubReasonAdPopups">Pemblokiran iklan dan pop up</string>
+    <string name="missingBrowserFeatureSubReasonVideos">Nonton video</string>
+    <string name="missingBrowserFeatureSubReasonImages">Berinteraksi dengan gambar</string>
+    <string name="missingBrowserFeatureSubReasonBookmarks">Membuat dan mengelola bookmark</string>
+    <string name="missingBrowserFeatureSubReasonOther">Tidak satupun</string>
+
+    <string name="websiteNotLoadingTitleLong">Situs web ini tidak dimuat dengan benar</string>
+    <string name="websiteNotLoadingTitleShort">Masalah pemuatan situs web</string>
+    <string name="websiteNotLoadingSubtitle">Situs web mana yang bermasalah?"</string>
+
+    <string name="searchNotGoodEnoughTitleLong">Penelusuran DuckDuckGo tidak cukup baik</string>
+    <string name="searchNotGoodEnoughTitleShort">Masalah pada Penelusuran DuckDuckGo</string>
+    <string name="searchNotGoodEnoughSubtitle">Fitur penelurusan yang mana yang dapat kami tambahkan atau tingkatkan?</string>
+    <string name="searchNotGoodEnoughSubReasonTechnicalSearches">Penelusuran pemrograman/teknis</string>
+    <string name="searchNotGoodEnoughSubReasonGoogleLayout">Tampilan harus lebih mirip dengan Google</string>
+    <string name="searchNotGoodEnoughSubReasonFasterLoadTimes">Waktu muat yang lebih cepat</string>
+    <string name="searchNotGoodEnoughSubReasonSpecificLanguage">Pencarian dalam bahasa dan wilayah tertentu</string>
+    <string name="searchNotGoodEnoughSubReasonBetterAutocomplete">Autocomplete yang lebih baik</string>
+    <string name="searchNotGoodEnoughSubReasonOther">Tidak satupun</string>
+
+    <string name="needMoreCustomizationTitleLong">Tidak ada cukup cara untuk mengkostumisasi aplikasi</string>
+    <string name="needMoreCustomizationTitleShort">Masalah dalam Mengkostumisasi</string>
+    <string name="needMoreCustomizationSubtitle">Opsi kostumisasi mana yang dapat kami tambahkan atau tingkatkan?</string>
+    <string name="needMoreCustomizationSubReasonHomeScreenConfiguration">Konfigurasi tampilan utama</string>
+    <string name="needMoreCustomizationSubReasonTabDisplay">Bagaimana tab ditampilkan</string>
+    <string name="needMoreCustomizationSubReasonAppLooks">Bagaimana apliasi ditampilkan</string>
+    <string name="needMoreCustomizationSubReasonWhichDataIsCleared">Data mana yang dihapus</string>
+    <string name="needMoreCustomizationSubReasonWhenDataIsCleared">Kapan data dihapus</string>
+    <string name="needMoreCustomizationSubReasonBookmarksDisplay">Bagaimana bookmark ditampilkan</string>
+    <string name="needMoreCustomizationSubReasonOther">Tidak satupun</string>
+
+    <string name="appIsSlowOrBuggyTitleLong">Aplikasi lambat, bermasalah, atau crash</string>
+    <string name="appIsSlowOrBuggyTitleShort">Masalah performa</string>
+    <string name="appIsSlowOrBuggySubtitle">Masalah mana yang Anda alami?</string>
+    <string name="appIsSlowOrBuggySubReasonSlowResults">Halaman web atau hasil pencarian lambat dimuat</string>
+    <string name="appIsSlowOrBuggySubReasonAppCrashesOrFreezes">Aplikasi crash atau berhenti</string>
+    <string name="appIsSlowOrBuggySubReasonMediaPlayback">Masalah pada video atau pemutaran media</string>
+    <string name="appIsSlowOrBuggySubReasonOther">Tidak satupun</string>
+
+    <string name="otherMainReasonTitleLong">Tidak satupun</string>
+    <string name="otherMainReasonTitleShort">Masalah lainnya</string>
+
+    <string name="openEndedInputHint">Bagaimana agar kami dapat meningkatkannya? (Opsional)</string>
+    <string name="submitFeedback">KIRIM TANGGAPAN</string>
+
+    <string name="tellUsHowToImprove">Tolong beritahu apa yang dapat kami tingkatkan.</string>
+    <string name="thanksForTheFeedback">Terima kasih untuk tanggapannya!</string>
+    <string name="feedbackNegativeMainReasonPageSubtitle">Apa yang paling berhubungan dengan frustasi Anda?</string>
+    <string name="feedbackNegativeMainReasonPageTitle">Kami minta maaf untuk hal tersebut.</string>
+    <string name="feedbackShareDetails">Begikan detail</string>
+    <string name="sharePositiveFeedbackWithTheTeam">Apakah ada hal detail yang ingin kamu bagikan dengan tim?</string>
+    <string name="whatHaveYouBeenEnjoying">Apa yang telah kamu nikmati?</string>
+    <string name="awesomeToHear">Senang mendengarnya!</string>
+    <string name="shareTheLoveWithARating">Tolong bagikan rasa suka Anda dengan memberi penilaian di Play Store.</string>
+    <string name="rateTheApp">NILAI APLIKASI</string>
+    <string name="declineFurtherFeedback">TIDAK TERIMA KASIH, SAYA SELESAI</string>
+    <string name="whichBrokenSites">Dimana kamu menemukan masalah ini?</string>
+    <string name="whichBrokenSitesHint">Halaman web mana yang memiliki masalah?</string>
+    <string name="feedbackSpecificAsPossible">Harap sespesifik mungkin</string>
+    <string name="feedbackInitialDisambiguationTitle">Ayo mulai!</string>
+    <string name="feedbackInitialDisambiguationSubtitle">Bagaimana Anda mengkategorikan tanggapan Anda?</string>
+    <string name="feedbackInitialDisambiguationHappyButtonContentDescription">Tombol tanggapan positif</string>
+    <string name="feedbackInitialDisambiguationSadButtonContentDescription">Tombol tanggapan negatif</string>
+    <string name="feedbackIsImportantToUs">Tanggapan anonim Anda sangat penting untuk kami.</string>
+
+</resources>
